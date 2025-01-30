@@ -1,0 +1,11 @@
+logging:
+  level:
+    org.springframework: trace
+spring:
+  application:
+    name: Login Service
+server:
+  port: 8082
+authorization-server:
+  base-url: http://localhost:9000
+  redirect-base-uri: http://localhost:8081

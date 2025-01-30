@@ -1,0 +1,9 @@
+logging:
+  level:
+    org.springframework: trace
+spring:
+  application:
+    name: Login Service
+authorization-server:
+  base-url: http://betting-auth-server
+  redirect-base-uri: http://api-gateway
