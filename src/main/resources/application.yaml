@@ -5,5 +5,5 @@ spring:
   application:
     name: Login Service
 authorization-server:
-  base-url: http://betting-auth-server
+  base-url: http://authorization-server
   redirect-base-uri: http://api-gateway
