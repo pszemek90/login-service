@@ -1,6 +1,9 @@
 logging:
   level:
     org.springframework: trace
+  structured:
+    format:
+      console: ecs
 spring:
   application:
     name: Login Service
