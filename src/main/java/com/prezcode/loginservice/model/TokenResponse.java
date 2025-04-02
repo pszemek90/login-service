@@ -1,8 +1,11 @@
 package com.prezcode.loginservice.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 
-public class TokenResponse {
+@JsonTypeName("TokenResponse")
+public class TokenResponse implements LoginResponse {
+
     @JsonProperty("access_token")
     private String accessToken;
     @JsonProperty("refresh_token")
